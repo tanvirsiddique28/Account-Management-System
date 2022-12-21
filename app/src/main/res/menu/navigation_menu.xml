@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:title="Report">
+            <menu>
+                <item
+                    android:id="@+id/amAlertMessage"
+                    android:icon="@drawable/ic_baseline_message_24"
+                    android:title="Alert Message" />
+
+                <item
+                    android:id="@+id/amCashReport"
+                    android:icon="@drawable/casheport"
+                    android:title="Cash Report" />
+                <item
+                    android:id="@+id/amOwneresReport"
+                    android:icon="@drawable/ownersreport"
+                    android:title="Owner's Report" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="Others's">
+
+            <menu>
+                <item
+                    android:id="@+id/amData"
+                    android:icon="@drawable/data"
+                    android:title="Data" />
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+</menu>
